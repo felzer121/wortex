@@ -1,0 +1,40 @@
+.footer {
+  width: 100%;
+  background-color: #333333;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  padding: 40px 40px 0 40px;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'FuturaPT', sans-serif;
+  h4 {
+    font-weight: 600;
+    font-size: 28px;
+    margin: 15px 0 20px 0;
+  }
+  h3 {
+    font-size: 36px;
+    margin: 0 0 20px 0;
+  }
+  &__info p {
+    max-width: 600px;
+  }
+  &__contacts {
+    ul {
+      padding: 0;
+      list-style: none;
+      li {
+        margin-bottom: 10px;
+      }
+    }
+
+  }
+  &__content {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}

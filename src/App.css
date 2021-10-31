@@ -1,38 +1,121 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
+  overflow: hidden;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: 'FuturaPT';
+  font-weight: 400;
+  src: local('FuturaPT'), url('./fonts/FuturaPT-Book.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'FuturaPT';
+  font-weight: 500;
+  src: local('FuturaPT'), url('./fonts/FuturaPT-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'FuturaPT';
+  font-weight: 600;
+  src: local('FuturaPT'), url('./fonts/FuturaPT-Demi.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Intro';
+  font-weight: 200;
+  src: local('Intro'), url('./fonts/introLigth.otf') format('otf');
+}
+@font-face {
+  font-family: 'Intro';
+  font-weight: 800;
+  src: local('Intro'), url('./fonts/introBlack.otf') format('otf');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 1100px) {
+  .footer__info {
+    max-width: 40%;
   }
-  to {
-    transform: rotate(360deg);
+  .header__pic {
+    display: none;
+  }
+  .header__content-bar {
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .header__bottom {
+    right: 15%;
+    left: unset!important;
+  }
+}
+@media (max-width: 1000px) {
+  .Program__box {
+    align-items: center;
+    flex-direction: column;
+  }
+  .Program__curs:not(:last-child) {
+    margin-right: 0!important;
+    margin-bottom: 40px;
+  }
+  .started {
+    flex-direction: column-reverse;
+  }
+  .started__width {
+    width: 100% !important;
+  }
+  .footer {
+    height: 100% !important;
+  }
+  .footer__content {
+    flex-wrap: wrap;
+  }
+  .footer__title {
+    width: 50%;
+    order: 1;
+  }
+  .footer__contacts {
+    width: 50%;
+    order: 2;
+  }
+  .footer__info {
+    width: 100%;
+    max-width: 100%;
+    order: 3;
+  }
+}
+@media (max-width: 500px) {
+  .footer__title {
+    width: 100%;
+  }
+  .header__menu-item {
+    display: none;
+  }
+  .App__content {
+    padding: 0 20px!important;
+  }
+  .header__content-bar {
+    height: 500px;
+  }
+  .header__topBox {
+    width: 150px!important;
+    height: 100px!important;
+  }
+  .header__bottomBox {
+    width: 100px!important;
+    height: 60px!important;
+  }
+  .started__info h4 {
+    font-size: 32px!important;
+  }
+  .footer__contacts {
+    width: 100%;
+  }
+  .Program {
+    padding: 60px 25px!important;
+  }
+  .Program__svg {
+    width: 100% !important;
+    height: 100% !important;
   }
 }
