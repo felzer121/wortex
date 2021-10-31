@@ -1814,6 +1814,13 @@
   dependencies:
     "@types/node" "*"
 
+"@types/sass@^1.43.0":
+  "integrity" "sha512-DPSXNJ1rYLo88GyF9tuB4bsYGfpKI1a4+wOQmc+LI1SUoocm9QLRSpz0GxxuyjmJsYFIQo/dDlRSSpIXngff+w=="
+  "resolved" "https://registry.npmjs.org/@types/sass/-/sass-1.43.0.tgz"
+  "version" "1.43.0"
+  dependencies:
+    "@types/node" "*"
+
 "@types/scheduler@*":
   "integrity" "sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew=="
   "resolved" "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.2.tgz"
@@ -3315,7 +3322,7 @@
   optionalDependencies:
     "fsevents" "^1.2.7"
 
-"chokidar@^3.4.1":
+"chokidar@^3.4.1", "chokidar@>=3.0.0 <4.0.0":
   "integrity" "sha512-9+s+Od+W0VJJzawDma/gvBNQqkTiqYTWLuZoyAsivsI4AaWTCzHG06/TMjsf1cYe9Cb97UCEhjz7HvnPk2p/tw=="
   "resolved" "https://registry.npmjs.org/chokidar/-/chokidar-3.5.1.tgz"
   "version" "3.5.1"
@@ -7846,7 +7853,7 @@
   "resolved" "https://registry.npmjs.org/node-releases/-/node-releases-1.1.70.tgz"
   "version" "1.1.70"
 
-"node-sass@^4.0.0 || ^5.0.0", "node-sass@^4.14.1":
+"node-sass@^4.0.0 || ^5.0.0":
   "integrity" "sha512-sjCuOlvGyCJS40R8BscF5vhVlQjNN069NtQ1gSxyK1u9iqvn6tf7O1R4GNowVZfiZUCRt5MmMs1xd+4V/7Yr0g=="
   "resolved" "https://registry.npmjs.org/node-sass/-/node-sass-4.14.1.tgz"
   "version" "4.14.1"
@@ -10182,6 +10189,13 @@
     "neo-async" "^2.6.2"
     "schema-utils" "^3.0.0"
     "semver" "^7.3.2"
+
+"sass@^1.3.0", "sass@1.43.4":
+  "integrity" "sha512-/ptG7KE9lxpGSYiXn7Ar+lKOv37xfWsZRtFYal2QHNigyVQDx685VFT/h7ejVr+R8w7H4tmUgtulsKl5YpveOg=="
+  "resolved" "https://registry.npmjs.org/sass/-/sass-1.43.4.tgz"
+  "version" "1.43.4"
+  dependencies:
+    "chokidar" ">=3.0.0 <4.0.0"
 
 "sax@~1.2.4":
   "integrity" "sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw=="
