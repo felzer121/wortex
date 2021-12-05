@@ -174,12 +174,8 @@ export const Program = () => {
                     <div className='Program__content'>
                         <h4 className='Program__title'>Курс Scratch - программирование для детей от 7 лет</h4>
                         <div className='Program__info'>
-                            <p>- Создание сайтов на
-                                языках HTML, CSS, JavaScript для
-                                детей от 12 лет</p>
-                            <p>- Создание сайтов на
-                                языках HTML, CSS, JavaScript для
-                                детей от 12 лет</p>
+                            <p>SCRATCH – это детский язык программирования, похожий на конструктор Lego.</p>
+                            <p>SCRATCH позволяет создавать мультфильмы, игры и презентации и очень нравится детям!</p>
                         </div>
                         <div className='Program__button'>
                             <button className='button' onClick={() => handleModal()}>ЗАПИСАТЬСЯ</button>

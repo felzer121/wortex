@@ -6,7 +6,7 @@ export const Footer = () => {
         <div className='footer'>
             <div className='footer__content'>
                 <div className='footer__title'>
-                    <h3>Logo</h3>
+                    <h3>{`C</>der`}</h3>
                     <p>Онлайн школа программирования</p>
                     <div>
                         <svg style={{marginRight: '20px'}} width="40" height="40" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">

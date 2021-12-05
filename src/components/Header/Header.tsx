@@ -14,7 +14,7 @@ export const Header = () => {
             {isShow && <Modal top={window.scrollY} handleModal={handleModal} /> }
             <div className='header'>
                 <div className='header__title'>
-                    <h3>Logo</h3>
+                    <h3>{`C</>der`}</h3>
                     <div className='header__menu'>
                         <span className='header__menu-item'>Программа</span>
                         <span className='header__menu-item'>Как начать</span>
