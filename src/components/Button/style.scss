@@ -1,0 +1,39 @@
+.boxButton {
+  max-width: 270px;
+  height: 65px;
+  position: relative;
+  cursor: pointer;
+  &:hover .button-btn {
+    background-color: #333333;
+    top: -7px;
+    left: -7px;
+  }
+  &:hover .button {
+    background-color: #F0C800;
+  }
+}
+.button {
+  background-color: #FFD400;
+  border-radius: 8px;
+  display: flex;
+  font-size: 24px;
+  transition: 0.5s;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  position: relative;
+  z-index: 10;
+  &-btn {
+    position: absolute;
+    border-radius: 8px;
+    z-index: -1;
+    content:"";
+    width: 100%;
+    background-color: #D9B712;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.5s;
+  }
+}

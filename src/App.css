@@ -4,7 +4,16 @@
   flex-direction: column;
   align-items: center;
 }
-
+@font-face {
+  font-family: 'BadScript';
+  font-weight: 400;
+  src: local('BadScript'), url('./fonts/BadScript-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-weight: 700;
+  src: local('FuturaPT'), url('./fonts/Oswald-SemiBold.ttf') format('truetype');
+}
 @font-face {
   font-family: 'FuturaPT';
   font-weight: 400;

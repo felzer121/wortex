@@ -1,0 +1,14 @@
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 18px;
+  &__item {
+    border-radius: 20px;
+    padding: 5px 20px;
+    background-color: #FDD303;
+    margin-bottom: 20px;
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+}
