@@ -258,7 +258,7 @@ export const Header = () => {
                                 </div>
                             </div>
                             <div>
-                                <svg width="988" height="659" viewBox="0 0 988 659" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg className='App__header-figure' width="988" height="659" viewBox="0 0 988 659" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clipPath="url(#clip0_693_224)">
                                         <path d="M41.2725 597.321H959.954" stroke="#263238" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
                                         <path d="M197.179 453.232C201.039 454.916 210.471 454.706 210.484 454.706C210.576 454.706 208.455 448.534 208.271 448.165C206.202 443.836 199.655 436.703 194.333 437.414C190.5 437.927 188.366 441.77 189.222 445.375C190.118 449.06 193.899 451.797 197.179 453.232Z" fill="#F0AE00"/>

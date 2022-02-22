@@ -8,16 +8,36 @@ export const Teacher = () => {
       <div className='Teacher__box'>
         <div className='Teacher__content'>
           <div className='Teacher__content-item'>
-            <div className='Teacher__content-item'>
               <img src="./1.png" alt=""/>
               <div className='Teacher__content-subFon' />
               <div className='Teacher__content-info'>
                 <h5>Преподаватель Python</h5>
                 <h4>Александр Хархота</h4>
+                <h5>Навыки</h5>
+                <div className='Teacher__content-skills'>
+                  <div>Scrath</div>
+                </div>
+
+                <h5>Достижения</h5>
+                <p>Преподаватель федерального проекта Кампус-2019 и Кампус-2020;
+                  Автор программы по созданию чат-ботов и искусственного интеллекта для детей</p>
               </div>
             </div>
+          <div className='Teacher__content-item'>
+            <img src="./1.png" alt=""/>
+            <div className='Teacher__content-subFon' />
+            <div className='Teacher__content-info'>
+              <h5>Преподаватель Python</h5>
+              <h4>Александр Хархота</h4>
+              <h5>Навыки</h5>
+              <div className='Teacher__content-skills'>
+                <div>Scrath</div>
+              </div>
 
-
+              <h5>Достижения</h5>
+              <p>Преподаватель федерального проекта Кампус-2019 и Кампус-2020;
+                Автор программы по созданию чат-ботов и искусственного интеллекта для детей</p>
+            </div>
           </div>
         </div>
         <svg className='Teacher__fon' width="1920" height="760" viewBox="0 0 1920 760" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -29,9 +49,7 @@ export const Teacher = () => {
             </linearGradient>
           </defs>
         </svg>
-
       </div>
-
     </div>
   );
 };

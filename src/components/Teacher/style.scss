@@ -13,9 +13,39 @@
   &__content {
     z-index: 10;
     max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
     height: 760px;
     width: 100%;
     position: relative;
+    &-item {
+      position: relative;
+      max-width: 390px;
+    }
+    &-info {
+      font-family: 'FuturaPT', sans-serif;
+      margin-left: 10px;
+      h5 {
+        margin: 25px 0 0 0;
+        font-weight: 450;
+        font-size: 20px;
+        line-height: 26px;
+        color: #B8B8B8;
+      }
+      h4 {
+        margin: 10px 0 0 0;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 38px;
+        color: #FFFFFF;
+      }
+      p {
+        font-weight: 450;
+        font-size: 20px;
+        line-height: 26px;
+        color: #FFFFFF;
+      }
+    }
     &-subFon {
       position: absolute;
       top: 10px;
