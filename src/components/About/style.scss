@@ -75,3 +75,54 @@
     transform: matrix(-1, 0.1, 0.1, 1, 0, 0);
   }
 }
+
+@media (max-width: 1400px) {
+  .about {
+    &__child-3 {
+      left: 400px;
+    }
+  }
+}
+@media (max-width: 1300px) {
+  .tags {
+    justify-content: center;
+  }
+  .about {
+    &__content {
+      height: auto;
+    }
+    &__box {
+      flex-direction: column;
+    }
+    &__info {
+      margin: 0;
+      background-color: #2f364b;
+    }
+    &__info-container {
+      margin-top: 200px;
+      text-align: center;
+    }
+    &__child-1 {
+      width: 100%;
+    }
+    &__video {
+      max-width: 670px;
+      margin: auto;
+      video {
+        margin: 0;
+        box-sizing: border-box;
+        padding: 50px 20px 0 20px;
+        width: 100%;
+      }
+    }
+  }
+}
+@media (max-width: 550px) {
+  .about {
+    &__child-1 {
+      width: 85%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
